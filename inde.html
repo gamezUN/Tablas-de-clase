@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de alumnos</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 150px;
+        }
+
+        table {
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #19a2b1;
+            color: white;
+            padding: 6px;
+            border: 1px solid #ddd;
+        }
+
+        td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #ddd;
+            color: #333;
+        }
+
+        td :first-child{
+            background-color: #19a2b1;
+        }
+
+        .opciones a {
+            text-decoration: none;
+            margin: 0 5px;
+            font-size: 16px;
+        }
+
+        .info {
+            color: #19a2b1;
+        }
+
+        .editar {
+            color: #42a765;
+        }
+
+        .eliminar {
+            color: #c84b57;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
+            <th>Opciones</th>
+        </tr>
+
+        <tr>
+            <td>12345678</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info" title="Información"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar" title="Editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar" title="Eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>23456781</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>34567890</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>45678901</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>56789012</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>67890123</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>78901234</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>89012345</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>901234567</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>012345678</td>
+            <td>Nahum</td>
+            <td>Gamez</td>
+            <td>xxxxx@gmail.com</td>
+            <td class="opciones">
+                <a href="#" class="info"><i class="fas fa-info-circle"></i></a>
+                <a href="#" class="editar"><i class="fas fa-edit"></i></a>
+                <a href="#" class="eliminar"><i class="fas fa-trash-alt"></i></a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
